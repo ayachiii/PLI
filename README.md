@@ -18,3 +18,7 @@ export_rr_interval自分で作成は、ECG_人名_フェーズ.csvからrr_inter
 import直後の画面のStartとlengthはどのように決定しているのか？
 SDSD,PNN20,PNN50がどこに書いてあるのかわからない。
 LF,HFはどの値をとってるのかわからない
+
+# 次の目標　
+csvの一人分を全部揃わせること
+HRV、PLI、アンケート、kubios_HRVをつなげること
