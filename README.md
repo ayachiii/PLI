@@ -24,8 +24,11 @@ constants.pyはジュピターノートブックでは作業可能であるが�
 
 # Kubiosについて
 import直後の画面のStartとlengthはどのように決定しているのか？
-SDSD,PNN20,PNN50がどこに書いてあるのかわからない。
-LF,HFはどの値をとってるのかわからない
+
+SDSD,PNN20,PNN50がどこに書いてあるのかわからない。と思ったけど、結局HRVパラメータのところで計算して出てくるからいいのでは？と思った。
+
+Kubios_HRV.csvのkubios_lf,kubios_hf,kubios_lf/hfは手動のような気がする。手動でいける。
+kubiosをインポートした後、.csvの方を開いて、kubios_lfにはFrequency-Domain ResultsのLF(ms^2),kubios_hfにはHF(ms^2),kubios_lf/hfにはLF/HF ratio:を記入する。
 
 # 次の目標　
 csvの一人分を全部揃わせること
