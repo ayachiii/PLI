@@ -31,8 +31,6 @@ csvの一人分を全部揃わせること
 
 ・export_HRV_parameters自作.ipynbの前処理、ノイズ処理にrrのcsvを使うのでは？という疑問。アップロードした前処理のファイルが使えないか模索する。後で。余力あったら。
 
-・PLIdata:mean_PLI_kumakura.csv
-
 ・HRV_and_PLI.csv              (←HRV、PLI、アンケート、kubios_HRVをつなげること)
 
 ・kubios_HRV.csv
